@@ -11,6 +11,7 @@ import {
 import Cocktails from './Cocktails';
 import Mocktails from './Mocktails';
 import Liqueurs from './Liqueurs';
+import Cart from './Cart';
 
 const Root = () => {
   return (
@@ -20,6 +21,7 @@ const Root = () => {
           <Route exact path='/Cocktails' element={<Cocktails/>} />
           <Route exact path='/Mocktails' element={<Mocktails/>} />
           <Route exact path='/Liqueurs' element={<Liqueurs/>} />
+          <Route exact path='/Cart' element={<Cart/>} />
         </Routes>
       </Router>
   )

@@ -12,8 +12,6 @@ function NavbarMenu() {
         <Link to="/Mocktails">Mocktails</Link>
                 <NavDropdown.Divider />
                 <Link to="/Liqueurs">Homemade liqueurs</Link>
-                <NavDropdown.Divider />
-                <Link to ="/Cart">Cart</Link>
                 <NavDropdown.Divider/>
                 <Link to="/Cocktails">Gin</Link>
                 <NavDropdown.Divider />
@@ -24,21 +22,19 @@ function NavbarMenu() {
                 <Link to ="/Cart">Rhum</Link>
                 <NavDropdown.Divider />
                 <Link to ="/Cart">Coffee</Link>
-                <NavDropdown.Divider />
-                <Link to ="/Cart">Rhum</Link>
               </NavDropdown>
         <Container>
           <Navbar.Brand>Lavacocktails</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Link to="/">Home</Link>
-              <Nav.Link to="#link">Link</Nav.Link>
+              <Link className="nav-link" to="/">Home</Link>
               <Form>
-  <Form.Group className="mb-3" controlId="formBasicEmail">
-    <Form.Control type="email" placeholder="search here" />
+  <Form.Group className="mb-3 " controlId="formBasicEmail">
+    <Form.Control type="email " placeholder="search here" />
     </Form.Group>
     </Form>
+    <Link className="nav-link" to="/Cart">Cart</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
