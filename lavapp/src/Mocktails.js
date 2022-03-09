@@ -1,5 +1,5 @@
 import NavbarMenu from './components/NavbarMenu';
-import ObjPres from './components/card';
+import ObjPres from './components/Card';
 import {Container, Row, Col} from 'react-bootstrap';
 
 function Mocktails() {
